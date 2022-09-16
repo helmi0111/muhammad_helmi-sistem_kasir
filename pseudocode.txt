@@ -3,3 +3,8 @@ PROGRAM SISTEM KASIR
 READ AND WRITE "item name" with number
 READ AND WRITE "item price" with number
 READ AND WRITE "item code" with number
+READ AND WRITE "total price" with number
+
+INPUT "item code" FOR GET "item name" AND "item price"
+STORE "total price" with CALCULATE "total price" plus by "item price"
+PRINT "total price"
