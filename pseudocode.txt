@@ -1,0 +1,5 @@
+PROGRAM SISTEM KASIR
+
+READ AND WRITE "item name" with number
+READ AND WRITE "item price" with number
+READ AND WRITE "item code" with number
