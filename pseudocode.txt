@@ -1,0 +1,15 @@
+PROGRAM SISTEM KASIR
+
+READ AND WRITE "item name" with number
+READ AND WRITE "item price" with number
+READ AND WRITE "item code" with number
+READ AND WRITE "total price" with number
+READ AND WRITE "total item" with number
+
+INPUT "total item" with 2
+WHILE "total item" > 0
+    DO  INPUT "item code" FOR GET "item name" AND "item price"
+        STORE "total price" with CALCULATE "total price" plus by "item price"
+        REDUCE "total item" by 1
+
+PRINT "total price"
